@@ -1,0 +1,4 @@
+github.com/knadh/go-get-youtube v0.0.0-20191105144436-94a3fa9fdab3 h1:fOcmyqzEt3+twVJy/vCM5dfzvyzrjoySQsmtn8Hy4oQ=
+github.com/knadh/go-get-youtube v0.0.0-20191105144436-94a3fa9fdab3/go.mod h1:aAnZN7Jo4aUTKaZcdXsGyaOlPYTumCYE6SE9uR6ybVU=
+github.com/zergon321/reisen v0.1.9 h1:jMMR/8Bup8reC1UOwNnEXd6ZYUZeOyxQLlmgdS1gyUQ=
+github.com/zergon321/reisen v0.1.9/go.mod h1:2qMVJqVTOt0DxXSm6/jN/4erba+Z+2jgjqiagDrAiOQ=

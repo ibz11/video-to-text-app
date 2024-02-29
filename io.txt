@@ -1,0 +1,39 @@
+
+	//Writing into a file
+	// file,_:= os.Create("output.txt")
+
+	// writer:=io.Writer(file)
+	// n,err:=writer.Write([]byte("Hello Ibrahim"))
+
+	// fmt.Println("--A video to text app----")
+	// if err!=nil{
+	// 	log.Panic("Error writing into txt file")
+	// }
+	// fmt.Println(n,err)
+	// file.Close()
+
+	//Reading a file
+
+	readfile, _ := os.Open("./audio/hello.wav") // For read access
+	reader := io.Reader(readfile)
+	
+
+
+	// buffer,err:=io.ReadAll(reader)//this takes too much memory on run time if the file is big
+	// fmt.Printf("buffer={%v},err={%v}",string(buffer), err)
+	//writer:=io.Writer(file)
+
+
+	io.Reader()
+
+	minbuffer := make([]byte, 100)
+	for {
+		n, err := reader.Read(minbuffer)
+		fmt.Printf("Read: n={%v} err={%v} buffer={%v}", n, err, string(minbuffer))
+		if err != nil {
+			fmt.Println(err)
+			break
+		}
+	}
+
+	readfile.Close()
